@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>City Explorer</h1>
+        <nav class="menu">
+            <a href="#destinatii">Destinații</a>
+            <a href="#planifica">Planifică</a>
+            <a href="#recomandari">Recomandări</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinatii">
+            <h2>Destinații</h2>
+            
+            <article>
+                <h3>Lisabona</h3>
+                <p><strong>Țara:</strong> Portugalia</p>
+                <p>Orașul celor șapte coline, faimos pentru tramvaiele sale istorice, clădirile colorate și atmosfera vibrantă de la Oceanul Atlantic.</p>
+                <p><strong>Durata recomandată a vizitei:</strong> 4 zile</p>
+            </article>
+
+            <article>
+                <h3>Paris</h3>
+                <p><strong>Țara:</strong> Franța</p>
+                <p>Capitala Franței, recunoscută global pentru Turnul Eiffel, Luvru, bulevardele elegante și gastronomia rafinată.</p>
+                <p><strong>Durata recomandată a vizitei:</strong> 5 zile</p>
+            </article>
+
+            <article>
+                <h3>Roma</h3>
+                <p><strong>Țara:</strong> Italia</p>
+                <p>Orașul Etern, un muzeu în aer liber unde poți admira Colosseumul, Fontana di Trevi și istoria impresionantă a Imperiului Roman.</p>
+                <p><strong>Durata recomandată a vizitei:</strong> 4 zile</p>
+            </article>
+
+            <article>
+                <h3>Barcelona</h3>
+                <p><strong>Țara:</strong> Spania</p>
+                <p>O combinație spectaculoasă între arhitectura modernistă a lui Antoni Gaudí și plajele însorite de la Marea Mediterană.</p>
+                <p><strong>Durata recomandată a vizitei:</strong> 3 zile</p>
+            </article>
+
+            <article>
+                <h3>Praga</h3>
+                <p><strong>Țara:</strong> Republica Cehă</p>
+                <p>Orașul celor o sută de clopotnițe, cu un Centru Istoric medieval fermecător, un castel impresionant și faimosul Pod Carol.</p>
+                <p><strong>Durata recomandată a vizitei:</strong> 3 zile</p>
+            </article>
+        </section>
+
+        <section id="planifica">
+            <h2>Planifică</h2>
+            <form action="#" method="POST">
+                <label for="name">Nume</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="destination">Destinație</label>
+                <select id="destination" name="destination" required>
+                    <option value="">Alege...</option>
+                    <option value="Lisabona">Lisabona</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Praga">Praga</option>
+                </select>
+
+                <label for="days">Număr de zile</label>
+                <input id="days" name="days" type="number" min="1" required>
+
+                <button type="submit">Planifică excursia</button>
+            </form>
+        </section>
+
+        <section id="recomandari">
+            <h2>Recomandări</h2>
+            <ul>
+                <li>Rezervă biletele online și din timp pentru principalele obiective turistice pentru a evita cozile lungi.</li>
+                <li>Explorează orașele pe jos sau folosește transportul public local pentru a descoperi autenticitatea locurilor.</li>
+                <li>Asigură-te că ai întotdeauna o asigurare de călătorie valabilă și actele de identitate verificate.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 City Explorer. Creat de Petre Ioan-Iulian.</p>
+    </footer>
+</body>
+</html>
